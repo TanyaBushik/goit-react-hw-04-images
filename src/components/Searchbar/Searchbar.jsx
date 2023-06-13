@@ -1,4 +1,5 @@
 import { useState } from 'react';
+// import { Component } from 'react';
 import PropTypes from 'prop-types';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -58,22 +59,22 @@ export const Searchbar = ({ handleSearchSubmit }) => {
 //     gallerySearchItem: '',
 //   };
 
-// const handleSearchInput = event => {
-//   this.setState({
-//     gallerySearchItem: event.currentTarget.value.toLowerCase(),
-//   });
-// };
+//   handleSearchInput = event => {
+//     this.setState({
+//       gallerySearchItem: event.currentTarget.value.toLowerCase(),
+//     });
+//   };
 
-// const handleSubmit = event => {
-//   event.preventDefault();
+//   handleSubmit = event => {
+//     event.preventDefault();
 
-//   if (this.state.gallerySearchItem.trim() === '') {
-//     return toast.error('Enter a valid query', toastConfig);
-//   }
+//     if (this.state.gallerySearchItem.trim() === '') {
+//       return toast.error('Enter a valid query', toastConfig);
+//     }
 
-//   this.props.handleSearchSubmit(this.state.gallerySearchItem);
-//   this.setState({ gallerySearchItem: '' });
-// };
+//     this.props.handleSearchSubmit(this.state.gallerySearchItem);
+//     this.setState({ gallerySearchItem: '' });
+//   };
 
 //   render() {
 //     return (
